@@ -8,6 +8,7 @@
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "mock-app": "node mock-app/server.js",
+    "test:surface": "tsx src/surface/manual-test.ts",
     "discover": "echo \"discover: not implemented yet\"",
     "replay": "echo \"replay: not implemented yet\""
   },
